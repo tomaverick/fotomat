@@ -8,6 +8,7 @@ html {
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header. */
+  background-image: url(../images/banner-landingpage.jpg);
 }
 
 .center {
@@ -41,6 +42,8 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  position: fixed;
+  z-index: 3;
 }
 
 header .content {
@@ -51,6 +54,9 @@ header .content {
 
 header .logo {
   flex: 1;
+  font-size: 30px;
+  font-family: "Rubik";
+  font-weight: lighter;
 }
 
 header nav ul {
@@ -120,6 +126,9 @@ header .mobile {
 }
 
 #sign-up-cta {
+  position: relative;
+  top: 170px;
+  left: 100px;
   padding: 0 5rem 2.5rem 5rem;
   border: solid 1px #979797;
   border-radius: 4px;
@@ -214,6 +223,7 @@ header .mobile {
   justify-content: space-between;
   padding: 4rem 5%;
   background-color: #f3f3f3;
+  width: 100%;
 }
 
 .feature {
