@@ -1,0 +1,30 @@
+section {
+    border: solid black 3.5px;
+    margin-bottom: 30px;
+}
+
+.section-title {
+  
+}
+
+.color-boxes {
+  display:flex;
+}
+
+#cool-turquoise {
+  background-color: #41d9d9;
+}
+
+.color{ 
+  height: 75px;
+  width: 100px;
+}
+
+#indigo {
+  background-color: #5041d9;
+}
+
+h3 span{
+  font-weight: 300;
+  font-size: 0.90rem;
+}
